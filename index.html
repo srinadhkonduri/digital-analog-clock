@@ -1,0 +1,36 @@
+<!-- digital and analog clock with temperature -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analog and Digital Clock</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="clock-container">
+        <div class="analog-clock">
+            <div class="hand hour-hand"></div>
+            <div class="hand min-hand"></div>
+            <div class="hand sec-hand"></div>
+            <div class="center-circle"></div>
+        </div>
+        <div class="digital-clock">
+            <div class="time" id="time" ></div>
+        </div>
+        <!-- creating a weather app  -->
+        <div class="style-weather">
+            <div class="weather">
+                <input class="city-style" type="text" placeholder="search city" id="city"><br><br>
+                <button onclick="weather() " id="but" class="button-style">Search</button>
+                <p id="city-name"></p>
+                <p id="temp"></p>
+                <p id="humidity"></p>
+                <p id="wind"></p>
+            </div>
+        </div>
+        <!-- from here -->
+        </div>
+    <script src="script.js"></script>
+</body>
+</html>
