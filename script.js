@@ -24,6 +24,8 @@ setInterval(updateClock, 1000);
 updateClock();
 
 // creating weather app code for the digital and analog clock
+// this is api code for the weather app in the html using the
+// client code for the data
 
 const url = "https://api.openweathermap.org/data/2.5/weather?units=metric&q="
 const key = "6cc631f616974f1a0c5dcb3f18a63087";
